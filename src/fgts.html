@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de FGTS</title>
+  <!-- style -->
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Cálculo de FGTS</h1>
+    </header>
+
+    <div class="container">
+        <form id="fgtsForm">
+            <label for="salario">Salário Mensal:</label>
+            <input type="number" id="salario" name="salario" placeholder="Digite seu salário" required>
+
+            <label for="tempo">Tempo de Serviço (meses):</label>
+            <input type="number" id="tempo" name="tempo" placeholder="Digite o tempo de serviço" required>
+
+            <button type="submit">Calcular FGTS</button>
+        </form>
+
+        <div id="resultado" style="margin-top: 2rem;"></div>
+    </div>
+
+    <footer>
+        <p>© 2025 Calculadora de FGTS e Rescisão. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
