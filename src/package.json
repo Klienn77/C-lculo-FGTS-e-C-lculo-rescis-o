@@ -1,8 +1,9 @@
 {
   "name": "projeto-fgts-rescisao",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,4 +14,3 @@
     "mysql2": "^3.12.0"
   }
 }
-
